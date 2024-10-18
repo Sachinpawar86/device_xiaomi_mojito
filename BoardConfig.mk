@@ -55,3 +55,7 @@ include vendor/xiaomi/mojito/BoardConfigVendor.mk
 
 # Inherit from proprietary files for Leica Camera
 -include vendor/xiaomi/mojito-leicacamera/BoardConfigVendor.mk
+
+# faceunlock-nonexistential target
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+ALLOW_MISSING_DEPENDENCIES := true
