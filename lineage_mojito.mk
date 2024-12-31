@@ -16,6 +16,21 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GMS := true
+
+# Pixel stuff
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Inherit Camera-related flags
+TARGET_USES_MIUI_CAMERA := true
+TARGET_INCLUDES_MIUI_CAMERA := true
+
+PRODUCT_SYSTEM_PROPERTIES += \
+     ro.crdroid.maintainer=Sachin_07
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
