@@ -20,12 +20,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Whether you are compiling being an OFFICIAL Maintainer:
 INFINITY_BUILD_TYPE := UNOFFICIAL
 
-# Whether the compiled package ships Google Apps:
-WITH_GAPPS := true
-
-# Whether the compiled shipped gapps package uses Google Dialer, Messaging, Contacts:
-TARGET_BUILD_GOOGLE_TELEPHONY := true # (WITH_GAPPS must be set to true alongside)
-
 # Maintainer Name
 INFINITY_MAINTAINER := K4LCHAKRA_&_ROMGHARTI
 
