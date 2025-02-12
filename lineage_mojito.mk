@@ -14,9 +14,6 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from release keys
-$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
-
 # BLKI
 TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
