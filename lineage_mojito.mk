@@ -14,18 +14,21 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Some Build Flags
+# Inherit from release keys
+$(call inherit-product, vendor/lineage-priv/keys/keys.mk)
+
+# BLKI
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
-# Maintainer name for Everest
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := K4LCHAKRA_&_ROMGHARTI
+# GAPPS
+WITH_GMS := true
 
-# Build GAPPS\Vanilla
-WITH_GAPPS := true
-
-# Quick witch (add more than one Launcher in build)
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+# Maintainer
+BLACKIRON_MAINTAINER := Sachin_07
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
