@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_mojito.mk
+    $(LOCAL_DIR)/voltage_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_mojito-user \
-    everest_mojito-userdebug \
-    everest_mojito-eng
+    voltage_mojito-user \
+    voltage_mojito-userdebug \
+    voltage_mojito-eng
