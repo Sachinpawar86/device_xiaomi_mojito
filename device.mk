@@ -8,6 +8,9 @@
 $(call inherit-product, \
     $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
+# Signed Keys
+-include vendor/voltage-priv/keys/keys.mk
+
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
