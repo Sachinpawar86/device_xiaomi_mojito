@@ -18,7 +18,7 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Whether you are compiling being an OFFICIAL Maintainer:
-INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_BUILD_TYPE := OFFICIAL
 
 # Maintainer Name
 INFINITY_MAINTAINER := K4LCHAKRA_&_ROMGHARTI
