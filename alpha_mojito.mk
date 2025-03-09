@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some AlphaDroid stuffs
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -53,7 +53,7 @@ ALPHA_BUILD_TYPE := Unofficial
 ALPHA_MAINTAINER := Sachin_07
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_mojito
+PRODUCT_NAME := alpha_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
