@@ -20,6 +20,7 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_ACCORD := false
 
 # Build GAPPS
 TARGET_USES_MINI_GAPPS := true
