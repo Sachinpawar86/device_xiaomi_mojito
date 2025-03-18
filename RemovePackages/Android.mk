@@ -20,13 +20,13 @@ LOCAL_OVERRIDES_PACKAGES := \
     TrichromeLibrary-Stub \
     WallpaperEmojiPrebuilt \
     talkback \
-	AICorePrebuilt \
+    AICorePrebuilt \
     AiWallpapers \
     BetterBugStub \
     CarrierLocation \
     ConfigUpdater \
     CreativeAssistant \
-	DreamlinerDreamsPrebuilt \
+    DreamlinerDreamsPrebuilt \
     DreamlinerPrebuilt \
     DreamlinerUpdater \
     DeviceIntelligenceNetworkPrebuilt \
@@ -36,13 +36,12 @@ LOCAL_OVERRIDES_PACKAGES := \
     MaestroPrebuilt \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
-    PrebuiltBugle \
     SettingsIntelligenceGooglePrebuilt \
-	TagGoogle \
+    TagGoogle \
     TurboPrebuilt \
     Velvet \
-	HealthIntelligencePrebuilt \
-	Flipendo
+    HealthIntelligencePrebuilt \
+    Flipendo
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
