@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ViPER4FX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
