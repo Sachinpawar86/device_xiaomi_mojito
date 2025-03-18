@@ -18,8 +18,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Build VANILLA
-WITH_GMS := false
+# Build GAPPS
+TARGET_USES_MINI_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
