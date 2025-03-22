@@ -23,7 +23,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_ACCORD := false
 
 # Build GAPPS
-TARGET_USES_MINI_GAPPS := true
+TARGET_USES_PICO_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
