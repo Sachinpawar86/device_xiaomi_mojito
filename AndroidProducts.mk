@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mojito.mk
+    $(LOCAL_DIR)/genesis_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mojito-user \
-    lineage_mojito-userdebug \
-    lineage_mojito-eng
+    genesis_mojito-user \
+    genesis_mojito-userdebug \
+    genesis_mojito-eng
