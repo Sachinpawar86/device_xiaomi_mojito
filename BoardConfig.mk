@@ -30,6 +30,9 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/mojito_defconfig vendor/debugfs.config
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
