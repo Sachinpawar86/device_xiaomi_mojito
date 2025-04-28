@@ -16,6 +16,7 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
 
 # Whether you are compiling being an OFFICIAL Maintainer:
 INFINITY_BUILD_TYPE := OFFICIAL
