@@ -16,16 +16,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_ACCORD := false
 
-# Maintainer name for Everest
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := K4LCHAKRA_&_ROMGHARTI
-
-# Build GAPPS\Vanilla
-WITH_GAPPS := true
-
-# Quick witch (add more than one Launcher in build)
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
+# Gapps
+TARGET_USES_MINI_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
