@@ -34,7 +34,7 @@ TARGET_SCREEN_DENSITY := 440
 HWUI_COMPILE_FOR_PERF := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/mojito_defconfig vendor/debugfs.config
+TARGET_KERNEL_CONFIG := vendor/mojito_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
