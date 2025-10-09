@@ -54,3 +54,6 @@ include vendor/xiaomi/mojito/BoardConfigVendor.mk
 
 # Inherit from proprietary files for Leica Camera
 -include vendor/xiaomi/mojito-leicacamera/BoardConfigVendor.mk
+
+# Signed Keys
+-include vendor/evolution-priv/keys/keys.mk
