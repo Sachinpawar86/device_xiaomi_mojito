@@ -14,10 +14,11 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Some Build Flags
+# Evolution-X Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_ACCORD := false
+TORCH_STR_SUPPORTED := true
 
 # Gapps
 TARGET_USES_MINI_GAPPS := true
