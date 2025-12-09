@@ -88,6 +88,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     RemovePkgs    
 
+# Signing
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/evolution-priv/keys/releasekey
+
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
