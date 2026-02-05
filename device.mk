@@ -87,6 +87,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
 		$(LOCAL_PATH)/overlay-lineage
 
+# Remove Unwanted Packages
+PRODUCT_PACKAGES += \
+    RemovePkgs        
+
 # Sensor
 TARGET_ENABLE_MULTI_SENSOR := true
 
