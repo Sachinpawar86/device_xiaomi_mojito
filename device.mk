@@ -90,6 +90,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Sensor
 TARGET_ENABLE_MULTI_SENSOR := true
 
+# Signing
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/evolution-priv/keys/releasekey
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
