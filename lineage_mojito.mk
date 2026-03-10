@@ -14,16 +14,12 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some LineageOS stuffs
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Some Build Flags
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_BLUR := true
-
 # Lunaris Build Flags
-WITH_GMS := false
+WITH_GMS := true
 TARGET_ENABLE_BLUR := true
 TORCH_STR_SUPPORTED := true
 TARGET_OPTIMIZED_DEXOPT := true
-TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 
 # Device identifier. This must come after all inclusions.
