@@ -15,7 +15,8 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Lunaris Build Flags
-WITH_GMS := true
+WITH_BCR := true
+WITH_GMS := false
 TARGET_ENABLE_BLUR := true
 TORCH_STR_SUPPORTED := true
 TARGET_OPTIMIZED_DEXOPT := true
