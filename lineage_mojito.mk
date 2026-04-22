@@ -11,21 +11,29 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some LineageOS stuffs
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+# Inherit some AxionOS stuffs
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_BLUR := true
+TARGET_INCLUDE_AXFX := true
 
-# Whether you are compiling being an OFFICIAL Maintainer:
-INFINITY_BUILD_TYPE := OFFICIAL
-
-# Maintainer Name
-INFINITY_MAINTAINER := K4LCHAKRA_&_ROMGHARTI
+# Axion-ify!
+AXION_CAMERA_REAR_INFO := 48,8,2,2
+AXION_CAMERA_FRONT_INFO := 13
+AXION_MAINTAINER := Sachin_07
+AXION_PROCESSOR := Snapdragon_678
+PERF_ANIM_OVERRIDE := true
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+GPU_FREQS_PATH := /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies
+GPU_MIN_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/min_freq
+GPU_MAX_FREQ_PATH := /sys/class/kgsl/kgsl-3d0/devfreq/max_freq
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := infinity_mojito
+PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
