@@ -91,7 +91,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_ENABLE_MULTI_SENSOR := true
 
 # Signing
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lunaris-priv/keys/releasekey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/matrixx-priv/keys/releasekey
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
