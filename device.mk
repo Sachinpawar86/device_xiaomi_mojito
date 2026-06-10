@@ -78,10 +78,6 @@ com.fingerprints.extension@1.0.vendor
 # Init
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_mojito)
 
-# Maintainer Flag
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.lunaris.maintainer=Sachin_07
-
 # Overlay
 PRODUCT_PACKAGES += \
     ApertureMojito
