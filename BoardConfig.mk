@@ -31,8 +31,8 @@ TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 TARGET_SCREEN_DENSITY := 440
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/mojito_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
+TARGET_KERNEL_CONFIG := mojito_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6150
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     LLVM=1 \
     LLVM_IAS=1
