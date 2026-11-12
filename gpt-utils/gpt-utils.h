@@ -27,6 +27,24 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+#pragma once
+
+#ifndef PTN_XBL_AC_CFG
+#define PTN_XBL_AC_CFG "xbl_config"
+#endif
+
+#ifndef PTN_TME_CFG
+#define PTN_TME_CFG "tme_config"
+#endif
+
+#ifndef PTN_TME_FW
+#define PTN_TME_FW "tme_fw"
+#endif
+
+#ifndef PTN_TME_SEQ_PATCH
+#define PTN_TME_SEQ_PATCH "tme_seq_patch"
+#endif
+
 #ifndef __GPT_UTILS_H__
 #define __GPT_UTILS_H__
 #include <vector>
